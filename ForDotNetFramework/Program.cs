@@ -12,6 +12,10 @@ namespace ForDotNetFramework
     {
         static void Main(string[] args)
         {
+            Generator.Generate(@".\generated", typeof(StaticClass));
+            Generator.Generate(@".\generated", typeof(StaticClass), typeof(InstanceClass));
+            Generator.Generate(@".\generated", Assembly.GetExecutingAssembly());
+            Generator.Generate(@"C:\git\AsyncMethodLibrary\ForDotNetCore\generated", Assembly.GetExecutingAssembly());
             Generator.Generate(@"C:\git\AsyncMethodLibrary\ForDotNetCore\generated", Assembly.GetExecutingAssembly());
         }
     }
