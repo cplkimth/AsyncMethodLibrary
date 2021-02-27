@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Taehyun Kim</Authors>
+    <Product>Async Method Library</Product>
+    <Description>Generates async wrapper method for non-async method</Description>
+    <Copyright>Copyright © Lovanpis 2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/cplkimth/AsyncMethodLibrary</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cplkimth/AsyncMethodLibrary.git</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>async method wrapper</PackageTags>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+</Project>
