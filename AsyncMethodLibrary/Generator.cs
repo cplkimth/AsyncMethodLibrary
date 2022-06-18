@@ -102,7 +102,7 @@ namespace {type.Namespace}
             string @this = ExtractThis(method);
             string accessModifier = ExtractAccessModifier(method);
 
-            string contents = $"{accessModifier} {@static}{returnType} {methodName}Async({@this} {typeAndNames}) => \r\n            Task.Factory.StartNew(() => {methodName}({names}));";
+            string contents = $"{accessModifier} {@static}{returnType} {methodName}Async({@this} {typeAndNames}) => \r\n            Task.Run(() => {methodName}({names}));";
 
             return contents;
         }

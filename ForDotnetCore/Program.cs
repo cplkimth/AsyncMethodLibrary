@@ -10,7 +10,7 @@ namespace ForDotNetFramework
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             Generator.Generate(@"C:\git\AsyncMethodLibrary\ForDotNetCore\generated", Assembly.GetExecutingAssembly());
         }
